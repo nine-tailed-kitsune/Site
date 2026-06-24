@@ -1,0 +1,51 @@
+body {
+    background-color: #141414;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.gruppa {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    color: white;
+}
+.post {
+    color: white;
+}
+.comment {
+    display: flex;
+    gap: 10px;
+}
+.comment1 {
+    flex: 1;
+}
+.post-category {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 20px;
+}
+.category li {
+    padding: 20px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+#header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin: 0;
+    font-size: 14px;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+#footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    font-size: 14px;
+}
